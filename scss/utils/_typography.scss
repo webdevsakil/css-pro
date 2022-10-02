@@ -1,0 +1,29 @@
+/* 
+typography
+*/
+
+$list: (
+    h1,
+    61px,
+    71px,
+    700,
+    "#0000"),
+    (h2, 51px, 62px, 600, "#2222"),
+    (h3, 42px, 50px, 500, "#444"),
+    (h5, 30px, 40px, 500, "#222"),
+    (h6, 16px, 25px, 300, "#fff"),
+    (p, 16px, 20px, 400, "#eee"
+);
+
+@each $name,
+$fontSize,
+$lineHeight,
+$fontWeight,
+$color in $list {
+    #{$name} {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+        font-weight: $fontWeight;
+        color: $color;
+    }
+}

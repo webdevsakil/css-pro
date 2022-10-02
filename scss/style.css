@@ -1,0 +1,78 @@
+/*
+ CSS Pro : HTML Starter Pack
+*/
+/* 
+typography
+*/
+h1 {
+  font-size: 61px;
+  line-height: 71px;
+  font-weight: 700;
+  color: "#0000";
+}
+
+h2 {
+  font-size: 51px;
+  line-height: 62px;
+  font-weight: 600;
+  color: "#2222";
+}
+
+h3 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 500;
+  color: "#444";
+}
+
+h5 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: "#222";
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  color: "#fff";
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: "#eee";
+}
+
+.theme-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 7px 12px;
+  transition: all ease-in 0.4s;
+}
+
+.theme-btn-fill {
+  background: #222;
+  color: #fff;
+}
+.theme-btn-fill:hover {
+  background: #fff;
+  color: #222;
+}
+
+.theme-btn-border {
+  border-color: #222;
+  background: transparent;
+  color: #222;
+}
+.theme-btn-border:hover {
+  background: #222;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

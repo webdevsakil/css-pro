@@ -1,0 +1,32 @@
+.theme-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 7px 12px;
+    transition: all ease-in 0.4s;
+}
+
+.theme-btn-fill {
+    background: #222;
+    color: #fff;
+
+    &:hover {
+        background: #fff;
+        color: #222;
+    }
+}
+
+.theme-btn-border {
+    border-color: #222;
+    background: transparent;
+    color: #222;
+
+    &:hover {
+        background: #222;
+        color: #fff;
+    }
+}
